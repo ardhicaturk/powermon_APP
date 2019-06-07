@@ -1,0 +1,77 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #dddddd;
+}
+.panel {
+	background: #dddddd;
+}
+
+/* Your app styles here */
+div[class*="col-"] {
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+.row {
+	margin-bottom: 15px;
+	font-weight: bold;
+}   
+.row a{
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+}
+.row .col-50{
+	background: #bbf3de;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 2px #bbbbbb;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.row .col-50:active:hover{
+  background: #94e9c8;
+  border-color: #94e9c8;
+}
+.row .col-50 .item-inner{
+  margin-top: 4px;
+}
+.panel .page-content{
+    background: #e0eff5;
+}
+.panel .page-content li{
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+.tableDatalog{
+	background: #ffffff;
+	table-layout: fixed;
+    width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+.tableDatalog th{
+	border-bottom: 1px solid #000000 !important;
+}
+.tableDatalog .numeric-cell{
+	border-left: 1px solid #000000 !important;
+}
+.log-title{
+	text-align: center;
+}

@@ -1,0 +1,42 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">Chart</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="chart" class="page">
+        <div class="page-content">
+			<div class="list-block" style="margin-top: 2px; margin-bottom:2px;">
+			  <ul>
+				<li>
+				  <a href="#" class="item-link smart-select" data-open-in="picker">
+					<select name="datedata" id="datedata">
+					</select>
+					<div class="item-content">
+					  <div class="item-inner">
+						<div class="item-title">Date</div>
+					  </div>
+					</div>
+				  </a>
+				</li>
+			  </ul>
+			</div>
+			<div id="chField">
+				<canvas id="myChart1" width="80vh" height="60vh"></canvas>
+				<canvas id="myChart2" width="80vh" height="60vh"></canvas>
+			</div>
+        </div>
+    </div>
+</div>

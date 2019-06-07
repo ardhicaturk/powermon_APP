@@ -1,0 +1,56 @@
+{
+  "_from": "cordova-plugin-android-wifi-manager@~1.0.0",
+  "_id": "cordova-plugin-android-wifi-manager@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YqQwmUSeMUCj8ZE7JGMNjZo+GOKY+1uoBzLG3AmJdulqbPYgO1zcojhWV648dG6y80Mx86pxIPhf7V83eeMamg==",
+  "_location": "/cordova-plugin-android-wifi-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-android-wifi-manager@~1.0.0",
+    "name": "cordova-plugin-android-wifi-manager",
+    "escapedName": "cordova-plugin-android-wifi-manager",
+    "rawSpec": "~1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "~1.0.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-android-wifi-manager/-/cordova-plugin-android-wifi-manager-1.0.0.tgz",
+  "_shasum": "c85ee7c413131c880a060cdc0ee5e02661611943",
+  "_spec": "cordova-plugin-android-wifi-manager@~1.0.0",
+  "_where": "C:\\Users\\noname\\Documents\\Andro project\\Power Mon",
+  "author": {
+    "name": "Mirza Kapetanovic"
+  },
+  "bugs": {
+    "url": "https://github.com/kapetan/cordova-plugin-android-wifi-manager/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-android-wifi-manager",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Cordova plugin for accessing Android WifiManager",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "homepage": "https://github.com/kapetan/cordova-plugin-android-wifi-manager#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cordova-plugin-android-wifi-manager",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/cordova-plugin-android-wifi-manager.git"
+  },
+  "scripts": {
+    "test": "standard --verbose"
+  },
+  "version": "1.0.0"
+}

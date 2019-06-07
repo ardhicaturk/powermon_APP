@@ -1,0 +1,49 @@
+{
+  "_from": "cordovanetworkmanager@^2.6.0",
+  "_id": "cordovanetworkmanager@2.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-g06GkbWkX7TwOzhax7Z45lvUHJHFKSyKqCIfgOEpU/6OFFOeMy9Ul0DHxU6kkWegIOgiLU0tB7VS4Y+6aV9R/g==",
+  "_location": "/cordovanetworkmanager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordovanetworkmanager@^2.6.0",
+    "name": "cordovanetworkmanager",
+    "escapedName": "cordovanetworkmanager",
+    "rawSpec": "^2.6.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.6.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordovanetworkmanager/-/cordovanetworkmanager-2.6.0.tgz",
+  "_shasum": "17b6cb2c983571d82860b7983a189f848645ca28",
+  "_spec": "cordovanetworkmanager@^2.6.0",
+  "_where": "C:\\Users\\noname\\Documents\\Andro project\\Power Mon",
+  "author": {
+    "name": "Nicholas Clancy"
+  },
+  "bugs": {
+    "url": "https://github.com/arsenal942/Cordova-Network-Manager/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordovanetworkmanager",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Network Manager for Android and iOS",
+  "homepage": "https://github.com/arsenal942/Cordova-Network-Manager#readme",
+  "license": "MIT",
+  "name": "cordovanetworkmanager",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsenal942/Cordova-Network-Manager.git"
+  },
+  "version": "2.6.0"
+}
